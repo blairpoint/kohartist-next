@@ -36,10 +36,9 @@ export default function PricingPage() {
         </h1>
 
         {/* The Stripe pricing table element embedded directly */}
-        <stripe-pricing-table 
-          pricing-table-id="prctbl_1TovERKEbwiqQxArxwjjm3MA"
-          publishable-key="pk_live_51THowuKEbwiqQxArUJlzPJ8048cR5JccpPSR65IksNzHbVLGY3DMTcCdAYNaWjGx1pbedh55RoUo3ddSq1V9awFr001kkOyNaq"
-        />
+<stripe-pricing-table pricing-table-id="prctbl_1Tp71YKEbwiqQxArNGBiQRod"
+publishable-key="pk_live_51THowuKEbwiqQxArUJlzPJ8048cR5JccpPSR65IksNzHbVLGY3DMTcCdAYNaWjGx1pbedh55RoUo3ddSq1V9awFr001kkOyNaq">
+</stripe-pricing-table>
       </div>
     </main>
   );
